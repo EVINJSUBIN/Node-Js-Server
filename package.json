@@ -3,7 +3,10 @@
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^4.21.0"
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
