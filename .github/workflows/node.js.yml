@@ -29,6 +29,6 @@ jobs:
         
     - run: npm ci
     - run: npm install 
-    - run: ipconfig 
+    - run: ifconfig 
     - run: npm run start --if-present
 
